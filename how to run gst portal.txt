@@ -1,0 +1,4 @@
+cd d:\GST-Invoice\gst-portal
+php artisan serve
+
+npm run dev
