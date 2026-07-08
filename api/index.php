@@ -26,6 +26,11 @@ foreach ($storageDirs as $dir) {
     }
 }
 
+// Set SQLite database path explicitly for serverless
+$_ENV['DB_DATABASE'] = $projectRoot . '/database/database.sqlite';
+$_SERVER['DB_DATABASE'] = $projectRoot . '/database/database.sqlite';
+putenv('DB_DATABASE=' . $projectRoot . '/database/database.sqlite');
+
 // Register the Composer autoloader
 require $projectRoot . '/vendor/autoload.php';
 

@@ -25,6 +25,13 @@
     }
   ],
   "env": {
+    "APP_NAME": "GST Invoice Portal",
+    "APP_ENV": "production",
+    "APP_KEY": "base64:rOxTLaVDgfoC2hl0mgZ2lTNQKaHen/l+bMohcpVT+Rw=",
+    "APP_DEBUG": "true",
+    "APP_URL": "https://gst-portal-finesaeed.vercel.app",
+    "DB_CONNECTION": "sqlite",
+    "QUEUE_CONNECTION": "sync",
     "APP_CONFIG_CACHE": "/tmp/config.php",
     "APP_EVENTS_CACHE": "/tmp/events.php",
     "APP_PACKAGES_CACHE": "/tmp/packages.php",
